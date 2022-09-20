@@ -1,0 +1,49 @@
+.services {
+    background-image: 
+        linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7))
+        ,url(../img/bgs/bg-skills.jpeg);
+    background-size: cover;
+    /* height: 80vh; */
+    color: white;
+    padding: 40px;
+}
+
+.services > .left-services > .title-services {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+.services > .left-services > .subtitle-services {
+    font-size: .9rem;
+    margin-bottom: 40px;
+}
+
+.services > .right-services {
+    display: grid;
+    gap:1rem;
+    grid-auto-rows:10rem;
+    grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr));    
+}
+
+.services > .right-services > .services-card {
+    color: white;
+    background-color: rgba(252, 250, 250, 0.095);
+    padding: 20px;
+}
+
+
+.services > .right-services > .services-card > div {
+    width: 50px;
+}
+
+.services > .right-services > .services-card > div > img{
+    width: 100%;
+}
+
+.services > .right-services > .services-card > h2 {
+    font-size: 1.1rem;
+}
+
+.services > .right-services > .services-card > p {
+    color: gray;
+}
