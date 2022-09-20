@@ -1,0 +1,37 @@
+.hero-section {
+    background-image: 
+        linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7))
+        ,url(../img/bgs/bg-hero.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 53px);
+}
+
+.hero-section .hero-wrapper {
+    text-align: center;
+}
+
+.hero-section .hero-wrapper .title-hero {
+    font-size: 1.5rem;
+}
+
+.hero-section .hero-wrapper .links {
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero-section .hero-wrapper .links a {
+    font-size: 1.4rem;
+    color: rgb(60, 136, 164);
+    transition: .3s;
+}
+
+.hero-section .hero-wrapper .links a:hover {
+    color: gray;
+}
