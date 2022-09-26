@@ -28,12 +28,13 @@ export default function Porfolio() {
         { language: "Javascript", imagen: 4 },
         { language: "BOOTSTRAP", imagen: 5 },
         { language: "MySQL", imagen: 6 },
-        { language: "Postgres SQL", imagen: 7 },
+        // { language: "Postgres SQL", imagen: 7 },
         { language: "Node JS", imagen: 8 },
-        { language: "Mongo DB", imagen: 13 },
+        { language: "HBS", imagen: 14},
+        // { language: "Mongo DB", imagen: 13 },
         { language: "Python", imagen: 10 },
         { language: "React Js", imagen: 11 },
-        { language: "Angular Js", imagen: 12 },
+        // { language: "Angular Js", imagen: 12 },
     ]
     const projects = [
         { imagen: 6, titulo: "Spotify", job: "Interface con HTML & CSS", url: "https://juanma-hinojosa.github.io/spotify-utn/", urlGit: "https://github.com/juanma-hinojosa/spotify-utn" },
