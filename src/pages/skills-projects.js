@@ -12,7 +12,7 @@ export default function Porfolio() {
             .then((res) => res.json())
             .then(
                 (result) => {
-                    console.log(result);
+                    // console.log(result);
                     setRepos(result.public_repos)
                 },
                 (error) => {
@@ -31,10 +31,11 @@ export default function Porfolio() {
         // { language: "Postgres SQL", imagen: 7 },
         { language: "Node JS", imagen: 8 },
         { language: "HBS", imagen: 14},
-        // { language: "Mongo DB", imagen: 13 },
+        { language: "Mongo DB", imagen: 13 },
+        { language: "FireBase", imagen: 15 },
         { language: "Python", imagen: 10 },
         { language: "React Js", imagen: 11 },
-        // { language: "Angular Js", imagen: 12 },
+        { language: "Angular Js", imagen: 12 },
     ]
     const projects = [
         { imagen: 6, titulo: "Spotify", job: "Interface con HTML & CSS", url: "https://juanma-hinojosa.github.io/spotify-utn/", urlGit: "https://github.com/juanma-hinojosa/spotify-utn" },

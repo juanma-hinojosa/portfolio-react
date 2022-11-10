@@ -13,9 +13,9 @@ export default function Home() {
                     <p>Creemos juntos grandes Aplicaciones</p>
                 </div>
                 <div className="links">
-                    <a href="https://www.facebook.com/juan.hinojosa.359/" target="_blank" rel="noreferrer">
+                    {/* <a href="https://www.facebook.com/juan.hinojosa.359/" target="_blank" rel="noreferrer">
                         <i className="fab fa-facebook"></i>
-                    </a>
+                    </a> */}
                     <a href="https://www.instagram.com/juanma.hinojosa/?hl=es" target="_blank" rel="noreferrer">
                         <i className="fab fa-instagram"></i>
                     </a>
