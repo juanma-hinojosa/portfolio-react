@@ -11,7 +11,7 @@ export default function NoMatch() {
                 <h3>:(</h3>
                 <div className="link-home-content">
                     <Link to="/" className="link-home">
-                        <i class="fas fa-arrow-left"></i>
+                        <i className="fas fa-arrow-left"></i>
                         Volver al Inicio
                     </Link>
                 </div>

@@ -40,8 +40,8 @@ export default function Porfolio() {
     const projects = [
         { imagen: 6, titulo: "Spotify", job: "Interface con HTML & CSS", url: "https://juanma-hinojosa.github.io/spotify-utn/", urlGit: "https://github.com/juanma-hinojosa/spotify-utn" },
         { imagen: 1, titulo: "Codepen", job: "Interface con HTML & CSS", url: "https://juanma-hinojosa.github.io/clone-code-pen/", urlGit: "https://github.com/juanma-hinojosa/clone-code-pen" },
-        { imagen: 9, titulo: "Spiderman Multiverse", job: "Node.Js - HBS - Jquery", url: "https://primer-app1.herokuapp.com/", urlGit: "https://github.com/juanma-hinojosa/Spiderman-Multiverse" },
         { imagen: 10, titulo: "Stranger Things", job: "Interface con HTML-CSS-JS-Firebase", url: "https://juanma-hinojosa.github.io/straner-things/", urlGit: "https://github.com/juanma-hinojosa/straner-things" },
+        { imagen: 11, titulo: "FIFA", job: "REACT - MONGO - CSS", url: "https://zesty-pithivier-d3c471.netlify.app/", urlGit: "https://github.com/juanma-hinojosa/frontFinal" },
         { imagen: 4, titulo: "Netflix", job: "Interface con HTML & CSS & Jquery", url: "https://juanma-hinojosa.github.io/clone-netflix/", urlGit: "https://github.com/juanma-hinojosa/clone-netflix" },
         { imagen: 2, titulo: "Disney+", job: "Interface con HTML & CSS", url: "https://juanma-hinojosa.github.io/clone-disneyplus/", urlGit: "https://github.com/juanma-hinojosa/clone-disneyplus" },
     ]
