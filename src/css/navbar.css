@@ -37,6 +37,10 @@
     color: rgb(60, 136, 164);
 }
 
+.nav-wrapper > .right-side > a {
+  color: rgb(60, 136, 164);
+}
+
 @media (max-width: 513px) {
   .nav-wrapper {
     flex-direction: column-reverse;

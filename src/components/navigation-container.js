@@ -30,7 +30,9 @@ class NavigationContainer extends Component {
                         </div>
                     </div> */}
                 </div>
-                <div className="right-side">Juan Hinojosa</div>
+                <div className="right-side">
+                    <a href="https://www.linkedin.com/in/juan-hinojosa-b07b05209/" target="_blank" rel="noreferrer">Juan Hinojosa</a>
+                </div>
             </div>
         )
     }
