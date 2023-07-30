@@ -1,6 +1,4 @@
-/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
-// import { Link } from "react-router-dom";
 import BgAbout from "../img/bgs/bg-about.jpeg";
 import Linkbutton from "../components/buttons-links";
 
@@ -26,38 +24,9 @@ export default function About () {
                     </div>
                 </div>
                 <div className="right-about" >
-                    <img src={BgAbout} data-aos="zoom-in"/>
+                    <img src={BgAbout} alt="profile-img" data-aos="zoom-in"/>
                 </div>
             </div>
-            {/* <div className="contact">
-                <div className="right-contact">
-
-                </div>
-                <div className="left-contact">
-                    <div className="form">
-                        <div className="form-group">
-                            <input type="text" id="fullName" placeholder="Your name" />
-                            <label for="fullName">Your name</label>
-                        </div>
-
-                        <div className="form-group">
-                            <input type="email" id="email" placeholder="Your Email" />
-                            <label for="email">Your Email</label>
-                        </div>
-                        
-                        <div className="form-group">
-                            <textarea name="message" id="message" placeholder="Message"></textarea>
-                            <label for="message">Message</label>
-                        </div>
-
-                        <div className="spacer10"></div>
-
-                        <div className="center-btn-wrapper">
-                            <button type="submit" class="btn">Send</button>
-                        </div>
-                    </div>
-                </div>
-            </div> */}
         </div>
     )
 }

@@ -4,7 +4,7 @@ export default function Home() {
     return (
         <div className="hero-section">
             <div className="hero-wrapper" data-aos="zoom-in">
-                <div class="title-hero">
+                <div className="title-hero">
                     <h3>Full Stack Developer</h3>
                     <h2>DEVELOPER</h2>
                 </div>

@@ -9,7 +9,7 @@
     align-items: center;
     justify-content: center;
     height: calc(100vh - 53px);
-}
+}  
 
 .hero-section .hero-wrapper {
     text-align: center;
@@ -34,4 +34,18 @@
 
 .hero-section .hero-wrapper .links a:hover {
     color: gray;
+}
+
+@media (max-width:420px) {
+    .hero-section .hero-wrapper {
+        padding: 0px 20px;
+        text-align: left;
+    }
+    .hero-section .hero-wrapper .links {
+        margin-top: 40px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
 }

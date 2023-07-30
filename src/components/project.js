@@ -11,12 +11,12 @@ function Project(props) {
                     <div className="link-work">
                         <a href={props.url} target="_blank" rel="noreferrer">SEE SITE</a>
                     </div>
-                    <div className="link-work">
+                    <div className="link-work asd">
                         <a href={props.urlGit} target="_blank" rel="noreferrer">SEE CODE</a>
                     </div>
                 </div>
             </div>
-        </div> 
+        </div>  
     )
 }
 

@@ -3,7 +3,6 @@
         linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7))
         ,url(../img/bgs/bg-skills.jpeg);
     background-size: cover;
-    /* height: 80vh; */
     color: white;
     padding: 40px;
 }
@@ -29,6 +28,10 @@
     color: white;
     background-color: rgba(252, 250, 250, 0.095);
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -44,6 +47,34 @@
     font-size: 1.1rem;
 }
 
-.services > .right-services > .services-card > p {
-    color: gray;
+/* Responsive */
+@media (max-width:460px) {
+    .services > .right-services {
+        display: grid;
+        gap:1rem;
+        grid-auto-rows:10rem;
+        grid-template-columns: repeat(auto-fill, minmax(6rem, 1fr));    
+    }
+
+    .services > .right-services > .services-card > h2 {
+        display: none;
+    }
+
+    .services > .right-services > .services-card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .services > .right-services > .services-card > div {
+        width: 70px;
+    }
+}
+
+@media (max-width:351px) {
+    .services > .right-services > .services-card > div {
+        width: 100px;
+    }
+    .services > .left-services > .title-services {
+        font-size: 1.1rem;
+    }
 }

@@ -4,7 +4,7 @@ function Skill(props) {
     return(
         <div className="services-card" data-aos="fade-up">
             <div>
-              <img src={require(`../img/skills/skill-${props.imagen}.png`)} alt="" />
+              <img src={require(`../img/skills/skill-${props.imagen}.png`)} alt="imagen skill" />
             </div>
             <h2>{props.language}</h2>
         </div>

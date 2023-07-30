@@ -1,9 +1,10 @@
 import React from "react";
-// import { Link } from "react-router-dom";
 import Project from "../components/project";
 import Skill from "../components/skill";
 import Linkbutton from "../components/buttons-links";
 import { useEffect, useState } from "react";
+import projects from "../json/projects.json";
+import skills from "../json/skills.json"
 
 export default function Porfolio() {
     const [repos, setRepos] = useState();
@@ -20,31 +21,6 @@ export default function Porfolio() {
                 }
             );
     }, []);
-
-    const softSkills = [
-        { language: "HTML5", imagen: 1 },
-        { language: "CSS3", imagen: 2 },
-        { language: "SASS-SCSS", imagen: 3 },
-        { language: "Javascript", imagen: 4 },
-        { language: "BOOTSTRAP", imagen: 5 },
-        { language: "MySQL", imagen: 6 },
-        // { language: "Postgres SQL", imagen: 7 },
-        { language: "Node JS", imagen: 8 },
-        { language: "HBS", imagen: 14},
-        { language: "Mongo DB", imagen: 13 },
-        { language: "FireBase", imagen: 15 },
-        { language: "Python", imagen: 10 },
-        { language: "React Js", imagen: 11 },
-        { language: "Angular Js", imagen: 12 },
-    ]
-    const projects = [
-        { imagen: 6, titulo: "Spotify", job: "Interface con HTML & CSS", url: "https://juanma-hinojosa.github.io/spotify-utn/", urlGit: "https://github.com/juanma-hinojosa/spotify-utn" },
-        { imagen: 1, titulo: "Codepen", job: "Interface con HTML & CSS", url: "https://juanma-hinojosa.github.io/clone-code-pen/", urlGit: "https://github.com/juanma-hinojosa/clone-code-pen" },
-        { imagen: 10, titulo: "Stranger Things", job: "Interface con HTML-CSS-JS-Firebase", url: "https://juanma-hinojosa.github.io/straner-things/", urlGit: "https://github.com/juanma-hinojosa/straner-things" },
-        { imagen: 11, titulo: "FIFA", job: "REACT - MONGO - CSS", url: "https://zesty-pithivier-d3c471.netlify.app/", urlGit: "https://github.com/juanma-hinojosa/frontFinal" },
-        { imagen: 4, titulo: "Netflix", job: "Interface con HTML & CSS & Jquery", url: "https://juanma-hinojosa.github.io/clone-netflix/", urlGit: "https://github.com/juanma-hinojosa/clone-netflix" },
-        { imagen: 2, titulo: "Disney+", job: "Interface con HTML & CSS", url: "https://juanma-hinojosa.github.io/clone-disneyplus/", urlGit: "https://github.com/juanma-hinojosa/clone-disneyplus" },
-    ]
     return (
         <div>
             <div className="services">
@@ -57,8 +33,12 @@ export default function Porfolio() {
                     </div>
                 </div>
                 <div className="right-services" >
-                    {softSkills.map(skill =>
-                        <Skill language={skill.language} imagen={skill.imagen}></Skill>
+                    {skills.map(skill =>
+                        <Skill
+                            key={skill.imagen}
+                            language={skill.language}
+                            imagen={skill.imagen}
+                        />
                     )}
                 </div>
             </div>
@@ -76,16 +56,18 @@ export default function Porfolio() {
                             linkWork="Ver GitHub"
                             fonticon="fab fa-github"
                         />
-
-                        {/* <Link to="/portofio/projects" className="button-link">
-                            <i class="fas fa-arrow-left"></i>
-                            Ver Repositorios
-                        </Link> */}
-                    </div>
+                    </div> 
                 </div>
                 <div className="right-work">
                     {projects.map(project =>
-                        <Project imagen={project.imagen} titulo={project.titulo} job={project.job} url={project.url} urlGit={project.urlGit}></Project>
+                        <Project
+                            key={project.imagen}
+                            imagen={project.imagen}
+                            titulo={project.titulo}
+                            job={project.job}
+                            url={project.url}
+                            urlGit={project.urlGit}
+                        />
                     )}
                 </div>
             </div>
