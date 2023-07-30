@@ -8,7 +8,7 @@ import Footer from "./components/footer";
 import NoMatch from "./pages/no-match";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import "../src/css/main.css";
+import "../src/css/main.css"; 
 import { useEffect } from "react";
 
 function App() {

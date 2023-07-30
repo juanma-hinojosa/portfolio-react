@@ -1,0 +1,54 @@
+[
+    { 
+        "language": "HTML5", 
+        "imagen": 1
+    },
+    { 
+        "language": "CSS3", 
+        "imagen": 2
+    },
+    { 
+        "language": "SASS-SCSS", 
+        "imagen": 3
+    },
+    { 
+        "language": "Javascript", 
+        "imagen": 4
+    },
+    { 
+        "language": "BOOTSTRAP", 
+        "imagen": 5
+    },
+    { 
+        "language": "MySQL", 
+        "imagen": 6
+    },
+    { 
+        "language": "Node JS", 
+        "imagen": 8
+    },
+    { 
+        "language": "HBS", 
+        "imagen": 14
+    },
+    { 
+        "language": "Mongo DB", 
+        "imagen": 13
+    },
+    { 
+        "language": "FireBase", 
+        "imagen": 15
+    },
+    { 
+        "language": "Python", 
+        "imagen": 10
+    },
+    { 
+        "language": "React Js", 
+        "imagen": 11
+    },
+    { 
+        "language": "Angular Js", 
+        "imagen": 12
+    }
+]
