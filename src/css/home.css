@@ -1,3 +1,6 @@
+.helper-10 {
+    display: none;
+}
 .hero-section {
     background-image: 
         linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7))
@@ -19,21 +22,25 @@
     font-size: 1.5rem;
 }
 
+.hero-section .hero-wrapper .title-hero h2{
+    font-size: 4.5rem;
+    font-weight: bolder;
+}
+
+
 .hero-section .hero-wrapper .links {
-    width: 400px;
+    margin-top: 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.hero-section .hero-wrapper .links a {
-    font-size: 1.4rem;
-    color: rgb(60, 136, 164);
-    transition: .3s;
-}
+@media (max-width:790px) {
 
-.hero-section .hero-wrapper .links a:hover {
-    color: gray;
+    .hero-section .hero-wrapper .title-hero h2{
+        font-weight: bolder;
+        line-height: 80px;
+    }
 }
 
 @media (max-width:420px) {
@@ -41,11 +48,29 @@
         padding: 0px 20px;
         text-align: left;
     }
+
+    .hero-section .hero-wrapper .title-hero h2{
+        font-size: 2rem;        
+        line-height: 30px;
+    }
+
+    .hero-section .hero-wrapper .subtitle-hero p {
+        margin-top: 10px;
+        font-size: .9rem;
+    }
+
     .hero-section .hero-wrapper .links {
-        margin-top: 40px;
         width: 100%;
         display: flex;
-        justify-content: space-around;
-        align-items: center;
+        flex-direction: column;
+    }
+
+    .hero-section .hero-wrapper .links a {
+        margin-bottom: 10px;
+    }
+
+    .helper-10 {
+        display: block;
+        height: 20px;
     }
 }
