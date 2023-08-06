@@ -6,7 +6,7 @@
     justify-content: space-between;
 }
 
-.about > .left-about {
+.about>.left-about {
     width: 50%;
     display: flex;
     justify-content: center;
@@ -14,17 +14,18 @@
     padding: 40px;
 }
 
-.about > .left-about > .left-content > .title-about {
-    font-size: 1.5rem;
+.about>.left-about>.left-content>.title-about {
     margin-bottom: 20px;
+    font-size: 2.5rem;
+        font-weight: lighter;
 }
 
-.about > .left-about > .left-content > .subtitle-about {
+.about>.left-about>.left-content>.subtitle-about {
     margin-bottom: 40px;
     font-size: .9rem;
 }
 
-.about > .left-about > .left-content > a{
+.about>.left-about>.left-content>a {
     /* margin-top: 20px; */
     padding: 12px 25px;
     color: white;
@@ -32,46 +33,57 @@
     transition: .3s;
 }
 
-.about > .left-about > .left-content > a:hover {
+.about>.left-about>.left-content>a:hover {
     background-color: white;
     color: black;
 }
 
-.about > .right-about {
+.about>.right-about {
     width: 40%;
     margin-top: 40px;
 }
 
-.about > .right-about > img {
+.about>.right-about>img {
     width: 100%;
 }
 
-@media  (max-width: 920px) {
+@media (max-width: 920px) {
     .about {
         display: flex;
         align-items: center;
     }
-    .about > .right-about {
+
+    .about>.right-about {
         width: 50%;
     }
 }
-@media  (max-width: 650px) {
+
+@media (max-width: 650px) {
     .about {
         display: flex;
         flex-direction: column;
     }
-    .about > .left-about {
+
+    .about>.left-about {
         width: 100%;
         padding-top: 80px;
     }
-    .about > .right-about {
+
+    .about>.left-about>.left-content>.title-about {
+        margin-top: 20px;
+        font-size: 2.5rem;
+        font-weight: lighter;
+
+    }
+
+    .about>.right-about {
         margin-top: 0;
         margin-bottom: 40px;
     }
 }
 
-@media  (max-width: 480px) {
-    .about > .right-about {
+@media (max-width: 480px) {
+    .about>.right-about {
         width: 90%;
     }
 }
