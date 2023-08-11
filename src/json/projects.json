@@ -7,11 +7,11 @@
         "urlGit": "https://github.com/juanma-hinojosa/spotify-utn"
     },
     {
-        "imagen": 1,
-        "titulo": "Codepen",
-        "job": "Interface con HTML & CSS",
-        "url": "https://juanma-hinojosa.github.io/clone-code-pen/", 
-        "urlGit": "https://github.com/juanma-hinojosa/clone-code-pen"
+        "imagen": 12,
+        "titulo": "Vengan de a Uno",
+        "job": "React Vite - Bootstrap - Frammer Motion",
+        "url": "https://extraordinary-sable-9518bc.netlify.app/", 
+        "urlGit": "https://github.com/juanma-hinojosa/vengan-uno"
     },
     {
         "imagen": 10,
