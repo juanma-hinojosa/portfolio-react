@@ -25,12 +25,20 @@
     font-size: .9rem;
 }
 
+
+.about>.left-about>.left-content>.links-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
 .about>.left-about>.left-content>a {
     /* margin-top: 20px; */
     padding: 12px 25px;
     color: white;
     background-color: blue;
     transition: .3s;
+    /* margin-right: 80px; */
 }
 
 .about>.left-about>.left-content>a:hover {
@@ -80,6 +88,18 @@
         margin-top: 0;
         margin-bottom: 40px;
     }
+}
+
+@media (max-width: 500px) {
+    .about>.left-about>.left-content>.links-wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about>.left-about>.left-content>.links-wrapper>a {
+        margin-top: 40px;
+    }  
 }
 
 @media (max-width: 480px) {
