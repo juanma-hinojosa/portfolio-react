@@ -1,8 +1,8 @@
 import React from "react";
 import BgAbout from "../img/bgs/bg-about.jpeg";
-import Linkbutton from "../components/buttons-links";
 import "../css/about.css"
-
+import IconComponent from "../components/icon";
+import IconsLink from "../json/icons.json"
 
 export default function About() {
     return (
@@ -20,17 +20,13 @@ export default function About() {
                         </section>
 
                         <div className="links-wrapper">
-                            <Linkbutton
-                                linkbtn="https://www.linkedin.com/in/juan-hinojosa-b07b05209/"
-                                linkWork="Ver Linkdln"
-                                fonticon="fab fa-linkedin"
-                            />
-
-                            <Linkbutton
-                                linkbtn="https://docs.google.com/document/d/1Yvy_wKYJdTv7jYCWV-shuU2IMCnYHjrxiZy5t03xqP4/edit?usp=sharing"
-                                linkWork="Ver CV"
-                                fonticon="<fa-paper-plane"
-                            />
+                            {IconsLink.map(Icon => 
+                                <IconComponent 
+                                key={Icon.id}
+                                    icon={Icon.icon}
+                                    link={Icon.link}
+                                />
+                            )}
                         </div>
 
 

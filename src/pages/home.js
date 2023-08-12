@@ -7,7 +7,7 @@ export default function Home() {
         <main className="hero-section">
             <article className="hero-wrapper" data-aos="zoom-in">
                 <section className="title-hero">
-                    <h2>Junior Full Stack Developer</h2>
+                    <h2>Junior <br />Full Stack Developer</h2>
                 </section>
                 <section className="subtitle-hero">
                     <p>
