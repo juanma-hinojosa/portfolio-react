@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "icon": "fab fa-instagram",
+        "link": "https://www.instagram.com/juanma.hinojosa/"
+    },
+    {
+        "id": 2,
+        "icon": "fas fa-envelope",
+        "link": "https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcRwQnVfvXhrLqDGhknqhlZFJWXbMtsCQNlblXjcJkxhNgrXwpSPlghlJtVWTHDkpftZqNxGd"
+    },
+    {
+        "id": 3,
+        "icon": "fab fa-linkedin",
+        "link": "https://www.linkedin.com/in/juan-hinojosa-b07b05209/"
+    },
+    {
+        "id": 4,
+        "icon": "fas fa-file-alt",
+        "link": "https://docs.google.com/document/d/1Yvy_wKYJdTv7jYCWV-shuU2IMCnYHjrxiZy5t03xqP4/edit?usp=sharing"
+    }
+]

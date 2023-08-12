@@ -1,7 +1,7 @@
 .services {
     background-image: 
-        linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7))
-        ,url(../img/bgs/bg-skills1.jpg);
+        /* linear-gradient(rgba(38, 37, 37, 0.7),rgba(36, 36, 36, 0.7)), */
+        url(../img/bgs/bg-skills1.jpg);
     background-size: cover;
     color: white;
     padding: 40px;

@@ -17,11 +17,11 @@
 .about>.left-about>.left-content>.title-about {
     margin-bottom: 20px;
     font-size: 2.5rem;
-        font-weight: lighter;
+    font-weight: lighter;
 }
 
 .about>.left-about>.left-content>.subtitle-about {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     font-size: .9rem;
 }
 
@@ -29,7 +29,18 @@
 .about>.left-about>.left-content>.links-wrapper {
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
+}
+
+.about>.left-about>.left-content>.links-wrapper>a {
+    color: white;
+    font-size: 1.6rem;
+    margin-right: 40px;
+    transition: .3s;
+}
+
+.about>.left-about>.left-content>.links-wrapper>a:hover {
+    color: rgb(60, 136, 164);;
 }
 
 .about>.left-about>.left-content>a {
@@ -91,15 +102,9 @@
 }
 
 @media (max-width: 500px) {
-    .about>.left-about>.left-content>.links-wrapper {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-
     .about>.left-about>.left-content>.links-wrapper>a {
-        margin-top: 40px;
-    }  
+        margin-right: 20px;
+    }
 }
 
 @media (max-width: 480px) {
